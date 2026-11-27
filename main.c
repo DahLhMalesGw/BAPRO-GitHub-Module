@@ -18,6 +18,8 @@ void decryptLayer2(char *text, const char *key) {
             if (isupper((unsigned char)text[i])) text[i] = ((text[i] - 'A' - shift + 26) % 26) + 'A';
             else text[i] = ((text[i] - 'a' - shift + 26) % 26) + 'a';
             // TODO: missing 1 line here (hint: it's an increment)
+            j++;
+
         }
     }
 }
