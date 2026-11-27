@@ -27,7 +27,7 @@ int main(void) {
     char ciphertext[] = "Avrrybde vq Mbbs Zpqoyz";
 
     int *shiftKey1 = 3;
-    char vigenereKey2[] = "RealKey";
+    char vigenereKey2[] = "broken";
 
     decryptLayer1(ciphertext, shiftKey1);
     decryptLayer2(ciphertext, vigenereKey2);
